@@ -1,0 +1,12 @@
+/*  Cascading Sytle Sheet(css) : 덮어씌워지다.
+    부모,조상(상위) 태그의 특성을 덮어쓸 수 있다.
+    선택자(selector)
+
+    -id : # div명
+    -class : .div명
+*/
+
+#header-center{
+    margin: 0 auto; 
+    width: 1080px;
+}
