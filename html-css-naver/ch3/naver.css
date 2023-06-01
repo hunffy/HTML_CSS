@@ -58,12 +58,36 @@
     display: inline-block;
     border: 2px solid #03cf5d; /*hex표기법*/
     vertical-align: middle;
+    position: relative;
 }
 
 #header-search fieldset input {
     border: none;
     padding: 0;
     outline: none;
+    vertical-align: top;
+    width: 405px;
+    height: 23px;
+}
+
+#header-search fieldset button {
+    width: 49px;
+    height: 49px;
+    border: none;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: -1px;
+}
+
+#search-image {
+    background: #03cf5d;
+    background-image: url(./search.png);
+    width: 49px;
+    height: 49px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 9px 8px;
 }
 /*
 #header-center h1{
